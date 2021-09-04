@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+}
+
+.navbar-desktop-only {
+  height: 30px;
+  background-color: #272a31;
+}
+
+.main-navbar {
+  height: 40px;
+  background-color: rgb(219, 13, 13);
+}
