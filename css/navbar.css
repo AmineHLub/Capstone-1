@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navbar {
@@ -8,11 +14,13 @@ ul {
   height: 75px;
   top: 0;
   left: 0;
+  font-family: 'lato', sans-serif;
 }
 
 .navbar-desktop-only {
   height: 25px;
   background-color: #272a31;
+  font-size: 12px;
 }
 
 .navbar-desktop-only > ul {
@@ -21,7 +29,7 @@ ul {
   margin: 0;
   align-items: center;
   flex-direction: row-reverse;
-  margin-right: 10%;
+  margin-right: 8.3%;
 }
 
 .navbar-desktop-only > ul > li {
@@ -29,7 +37,6 @@ ul {
 }
 
 .navbar-desktop-only > ul > li > a {
-  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
@@ -39,6 +46,50 @@ ul {
 }
 
 .main-navbar {
+  box-shadow: 0 4px 2px -2px rgba(187, 187, 187, 0.37);
+}
+
+.main-navbar > div {
   height: 50px;
-  background-color: rgb(163, 163, 163);
+  background-color: white;
+  margin: 0 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 40%;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.navbar-items > li > a:not(.about-nav-link) {
+  color: #86888b;
+}
+
+.navbar-items > li > a:not(.about-nav-link):active,
+.navbar-items > li > a:not(.about-nav-link):target,
+.navbar-items > li > a:not(.about-nav-link):focus,
+.navbar-items > li > a:not(.about-nav-link):hover {
+  color: #272a31;
+}
+
+.main-navbar > div > a {
+  color: #86888b;
+}
+
+.about-nav-link {
+  color: #ec5242;
+}
+
+.about-nav-link:active,
+.about-nav-link:target,
+.about-nav-link:focus,
+.about-nav-link:hover {
+  color: #f00;
 }
