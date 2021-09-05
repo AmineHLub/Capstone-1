@@ -66,7 +66,8 @@ a {
 }
 
 .navbar-logo {
-  width: 30%;
+  width: 107px;
+  height: 67px;
 }
 
 .navbar-items {
@@ -103,10 +104,8 @@ a {
 }
 
 @media (max-width: 768px) {
-  .navbar-desktop-only,
-  .navbar-logo,
-  .navbar-items,
-  .navbar-camp-btn {
+  .main-navbar > div,
+  .navbar-desktop-only {
     display: none;
   }
 
