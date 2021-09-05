@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+.main-website-container {
+  margin-top: 75px;
+  height: 1000px;
+  width: 100%;
+  background: linear-gradient(to bottom, #407c8fa2 0%, #23538a 100%);
+}
