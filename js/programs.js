@@ -37,8 +37,25 @@ const arrOfPrograms = [
 ];
 
 for (let i = 0; i < arrOfPrograms.length; i += 1) {
-    console.log('hey');
   const programsDIV = document.createElement('div');
+  const gridFlex1 = document.createElement('div');
+  const gridFlex2 = document.createElement('div');
+  const gridFlex3 = document.createElement('div');
   programsDIV.classList.add('programs');
+  const createImg = document.createElement('img');
+  const createH1 = document.createElement('h1');
+  const createP = document.createElement('p');
   document.querySelector('.programs-container').appendChild(programsDIV);
+  programsDIV.appendChild(gridFlex1);
+  programsDIV.appendChild(gridFlex2);
+  programsDIV.appendChild(gridFlex3);
+  gridFlex1.classList.add('prog-logo');
+  gridFlex1.appendChild(createImg);
+  createImg.src = arrOfPrograms[i].logo;
+  gridFlex2.classList.add('prog-title');
+  gridFlex2.appendChild(createH1);
+  createH1.innerText = arrOfPrograms[i].title;
+  gridFlex3.classList.add('prog-description');
+  gridFlex3.appendChild(createP);
+  createP.innerText = arrOfPrograms[i].description;
 }
