@@ -6,7 +6,7 @@ body {
   margin-top: 40px;
   height: 1000px;
   width: 100%;
-  background: linear-gradient(to bottom, #407c8fa2 0%, #23538a 100%);
+  background: linear-gradient(to bottom, #408f6ea2 0%, #23538a 100%);
 }
 
 @media (min-width: 768px) {
