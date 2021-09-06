@@ -17,7 +17,7 @@ const arrOfPrograms = [
   {
     logo: '../src/page2/program-logos/ruby.svg',
     title: 'Ruby',
-    description: 'Ruby is an interpreted, high-level, general-purpose programming language. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.',
+    description: 'Ruby is an interpreted, high-level, general-purpose programming language. It supports multiple programming paradigms, and functional programming.',
   },
   {
     logo: '../src/page2/program-logos/ror.svg',
