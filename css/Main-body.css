@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  background-image: url(../src/logo/mobile_bg.png);
+  background-repeat: no-repeat;
+  background-position: 0% 4rem;
 }
 
 .main-website-container {
