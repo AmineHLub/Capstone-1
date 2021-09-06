@@ -4,9 +4,29 @@ body {
 
 .main-website-container {
   margin-top: 40px;
-  height: 1000px;
   width: 100%;
-  background: linear-gradient(to bottom, #ffffffa2 0%, #999999 100%);
+}
+
+#home-page {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  margin: 4%;
+  font-family: 'Lato', sans-serif;
+}
+
+.mini-titling {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #ec5242;
+  font-weight: light;
+}
+
+.main-titling {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight:bolder;
+  color: #ec5242;
 }
 
 @media (min-width: 768px) {
