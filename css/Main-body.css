@@ -11,10 +11,10 @@ body {
 }
 
 #home-page {
-  height: 100vh;
+  height: 65vh;
   display: flex;
   flex-flow: column;
-  margin: 7%;
+  margin: 7% 7% 0 7%;
   font-family: 'Lato', sans-serif;
 }
 

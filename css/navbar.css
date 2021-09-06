@@ -21,7 +21,7 @@ a {
   top: 0;
   left: 0;
   font-family: 'lato', sans-serif;
-  box-shadow: 0 4px 2px -2px rgb(187, 187, 187);
+  box-shadow: 0 4px 2px -2px rgb(101 94 94 / 19%);
 }
 
 .hamburger-menu > img {

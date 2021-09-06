@@ -1,0 +1,25 @@
+#program-page {
+  height: 100vh;
+  background-color: #272a31;
+  background-image: url(../src/page2/shape.png);
+}
+
+.program-page-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  color: #d3d3d3;
+}
+
+.program-page-container > h1 {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1.5%;
+  height: 60px;
+  margin-bottom: 0;
+}
+
+.mini-border {
+  border-bottom: 3px solid tomato;
+  width: 20%;
+}
