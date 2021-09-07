@@ -56,4 +56,30 @@ body {
   .main-website-container {
     margin-top: 75px;
   }
+
+  #home-page {
+    height: auto;
+  }
+
+  .main-titling {
+    margin: 50px 40% 15px 0;
+    font-size: 60px;
+    background-image: url(../src/logo/clipart1.png);
+  }
+
+  .main-description > p {
+    margin: 0 45% 0 5%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    background-color: white;
+  }
+
+  .due-date {
+    margin-bottom: 5%;
+  }
+
+  body {
+    background-image: url(../src/logo/pc_bg.png);
+  }
 }
