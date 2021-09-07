@@ -26,7 +26,7 @@ const arrOfSpeakers = [
   {
     picture: './src/page2/speaker-faces/face5.png',
     name: 'Martha',
-    position: 'Chef of CS department at Indian Institute of Technology Delhi',
+    position: 'Chef department at Indian Institute of Technology Delhi',
     description: 'Phd in Computer Science, has over 20 books on Algorithms and Data Science',
   },
   {

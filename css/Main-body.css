@@ -12,7 +12,6 @@ body {
 }
 
 #home-page {
-  height: 65vh;
   display: flex;
   flex-flow: column;
   margin: 7% 7% 0 7%;
@@ -49,11 +48,39 @@ body {
 .due-date > h2 {
   font-size: 22px;
   font-weight: 400;
-  margin: 0 0 0 4%;
+  margin: 0 0 50px 4%;
 }
 
 @media (min-width: 768px) {
   .main-website-container {
     margin-top: 75px;
+  }
+
+  #home-page {
+    margin-bottom: 100px;
+  }
+
+  .main-titling {
+    margin: 50px 40% 15px 0;
+    font-size: 60px;
+    background-image: url(../src/logo/clipart1.png);
+  }
+
+  .main-description > p {
+    margin: 0 45% 0 5%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    background-color: white;
+  }
+
+  .due-date {
+    margin-bottom: 5%;
+  }
+
+  body {
+    background-image: url(../src/logo/pc_bg.png), url(../src/logo/bg-gif.gif);
+    background-position: 0% 4rem, 100% 8rem;
+    background-size: 100%, 50%;
   }
 }
