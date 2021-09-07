@@ -1,0 +1,46 @@
+/** layout is insided the program css to avoid css dry **/
+
+.featured-speakers-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 200px;
+  margin: 2rem 5% 0 5%;
+  background-color: tomato;
+}
+
+.featured-speakers-grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: repeat(2, 20%) 55%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 95%;
+  height: 95%;
+}
+
+.img-container,
+.name-container,
+.position-container,
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.name-container {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.position-container {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.description-container {
+  grid-area: 3 / 2 / 4 / 3;
+}
