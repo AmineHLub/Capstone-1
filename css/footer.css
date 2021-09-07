@@ -3,9 +3,9 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  height: 300px;
+  height: auto;
   background-color: rgb(90, 90, 90);
-  color: aliceblue;
+  color: #d3d3d3;
 }
 
 .partner-header {
@@ -30,4 +30,13 @@
 
 .partners-logos > img {
   margin: 3% 2%;
+  height: 30px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .partners-logos > img {
+    height: auto;
+    width: auto;
+  }
 }

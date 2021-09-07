@@ -12,7 +12,6 @@ body {
 }
 
 #home-page {
-  height: 65vh;
   display: flex;
   flex-flow: column;
   margin: 7% 7% 0 7%;
@@ -49,7 +48,7 @@ body {
 .due-date > h2 {
   font-size: 22px;
   font-weight: 400;
-  margin: 0 0 0 4%;
+  margin: 0 0 50px 4%;
 }
 
 @media (min-width: 768px) {
@@ -58,7 +57,7 @@ body {
   }
 
   #home-page {
-    height: auto;
+    margin-bottom: 100px;
   }
 
   .main-titling {
@@ -80,6 +79,8 @@ body {
   }
 
   body {
-    background-image: url(../src/logo/pc_bg.png);
+    background-image: url(../src/logo/pc_bg.png), url(../src/logo/bg-gif.gif);
+    background-position: 0% 4rem, 100% 8rem;
+    background-size: 100%, 50%;
   }
 }
