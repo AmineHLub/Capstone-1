@@ -1,0 +1,19 @@
+.hamburger-menu-clicked {
+  background-color: teal;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+}
+
+.show {
+  transform: translate(100%);
+  transition: 0.35s;
+}
+
+.close {
+  transform: translate(-100%);
+  transition: 0.35s;
+}
