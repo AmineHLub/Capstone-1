@@ -1,0 +1,33 @@
+
+#partners {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(90, 90, 90);
+  color: aliceblue;
+}
+
+.partner-header {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'lato', sans-serif;
+}
+
+.footer-seperator {
+  margin: 0 0 3% 0;
+  width: 10%;
+  border-bottom: 2px solid #ec5242;
+}
+
+.partners-logos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.partners-logos > img {
+  margin: 3% 2%;
+}
