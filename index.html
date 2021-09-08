@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./css/program-page.css">
     <link rel="stylesheet" href="./css/featured-speakers.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/hamburger-menu.css">
     <title>Microverse Capstone</title>
 </head>
 <body>
+ 
     <header>
         <nav class="navbar">
             <div class="navbar-desktop-only">
@@ -28,17 +30,34 @@
                 <div>
             <a href="#" ><img alt="logo" class="navbar-logo" src="./src/logo/main-logo.svg"></a>
             <ul class="navbar-items">
-                <li><a class="about-nav-link" href="#">About</a></li>
-                <li><a href="#">Program</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Sponsor</a></li>
-                <li><a href="#">News</a></li>
+                <li><a class="about-nav-link" href="#featured-speakers">About</a></li>
+                <li><a href="#program-page">Program</a></li>
+                <li><a href="#featured-speakers">Founders</a></li>
+                <li><a href="#partners">Partners</a></li>
                 </ul>
             <a href="#" class="navbar-camp-btn">Apply</a>
         </div>
         </div>
         </nav>
     </header>
+
+       <div class="hamburger-menu-clicked">
+        <a><img src="./src/hamburger-logos/close.png" alt="closebutton"></a>
+        <div class="menu-list">
+            <ul>
+                <li><img src="./src/hamburger-logos/home.png" alt="home-btn">
+                    <a href="#home-page" class="menu-icons">Home</a></li>
+                <li><img src="./src/hamburger-logos/program.png" alt="prog-btn">
+                    <a href="#program-page" class="menu-icons">Program</a></li>
+                <li><img src="./src/hamburger-logos/speakers.png" alt="partner-btn">
+                    <a href="#featured-speakers" class="menu-icons">Founders</a></li>
+                <li><img src="./src/hamburger-logos/partners.png" alt="founders-btn">
+                    <a href="#partners" class="menu-icons">Partners</a></li>
+                <li><img src="./src/hamburger-logos/about.png" alt="about-btn">
+                    <a href="#featured-speakers" class="menu-icons">About</a></li>
+            </ul>
+        </div>
+    </div>
     <main class="main-website-container">
         <section id="home-page">
 
@@ -64,9 +83,14 @@
             </div>
             </div>
         </section>
-
+        <div class="program-seperator">
+        <h1>Founders</h1>
+        <div class="mini-border"></div>
+    </div>
         <section id="featured-speakers">
         </section>
+
+        <a href="#" class="go-up-btn"><img src="./src/hamburger-logos/goup.png" alt=""></a>
 
     </main>
 
