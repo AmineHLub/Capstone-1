@@ -1,5 +1,13 @@
 /** layout is insided the program css to avoid css dry **/
 
+.program-seperator {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
 .featured-speakers-container {
   display: flex;
   flex-flow: column wrap;

@@ -50,12 +50,12 @@
 }
 
 .go-up-btn {
-    position: fixed;
-    z-index: 1;
-    bottom: 2rem;
-    right: 2%;
+  position: fixed;
+  z-index: 1;
+  bottom: 2rem;
+  right: 2%;
 }
 
 .go-up-btn > img {
-    width: 75%;
+  width: 75%;
 }
