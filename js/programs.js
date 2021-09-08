@@ -43,7 +43,7 @@ for (let i = 0; i < arrOfPrograms.length; i += 1) {
   const gridFlex3 = document.createElement('div');
   programsDIV.classList.add('programs');
   const createImg = document.createElement('img');
-  const createH1 = document.createElement('h1');
+  const createH1 = document.createElement('h3');
   const createP = document.createElement('p');
   document.querySelector('.programs-container').appendChild(programsDIV);
   programsDIV.appendChild(gridFlex1);
