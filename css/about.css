@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-image: url(../src/logo/mobile_bg.png);
+  background-repeat: no-repeat;
+  background-position: 0% 4rem;
+  background-size: 100%;
+  font-family: 'lato', sans-serif;
+}
+
+#about {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5rem 10%;
+  text-align: center;
+}
+
+.greetings {
+  color: #ec5242;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#about > h1 {
+  margin: 10px 0 0 0;
+  font-family: 'cocogoose', sans-serif;
+  color: #ec5242;
+}
+
+.footer-section,
+.website-main-descrption,
+#about > a,
+.contact-info,
+.logo-description {
+  font-size: 14px;
+  color: #272a31;
+}
+
+.website-main-descrption {
+  font-size: 14px;
+  color: #272a31;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+}
+
+#about > a > span,
+.additional-for-desktop-only {
+  display: none;
+}
+
+#about > a {
+  font-weight: bold;
+}
+
+.logo-info {
+  margin: 2.5rem 0 0 0;
+  font-weight: 500;
+  color: #272a31;
+}
+
+.logo1 {
+  width: 60%;
+  margin: 4rem 0 0 0;
+}
+
+#rights > .footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-section > a > img {
+    width: 170px;
+    height: 70px;
+}
