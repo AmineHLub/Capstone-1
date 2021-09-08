@@ -1,5 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
 .hamburger-menu-clicked {
-  background-color: teal;
+  background-color: #e4594af5;
   position: fixed;
   z-index: 999;
   top: 0;
@@ -16,4 +18,44 @@
 .close {
   transform: translate(-100%);
   transition: 0.35s;
+}
+
+.hamburger-menu-clicked > a {
+  float: right;
+  margin: 10% 10% 0 0;
+}
+
+.menu-list > ul {
+  text-decoration: none;
+  margin-top: 20%;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+}
+
+.menu-list > ul > li {
+  margin: 1.7rem 5%;
+  font-family: 'cocogoose', sans-serif;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid white;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.menu-icons {
+  margin-left: 8%;
+  color: white;
+}
+
+.go-up-btn {
+    position: fixed;
+    z-index: 1;
+    bottom: 2rem;
+    right: 2%;
+}
+
+.go-up-btn > img {
+    width: 75%;
 }
