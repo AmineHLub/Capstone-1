@@ -1,3 +1,4 @@
+
 #program-page {
   background-color: #272a31;
   background-image: url(../src/page2/shape.png);
@@ -11,17 +12,20 @@
   font-family: 'Lato', sans-serif;
 }
 
-.program-page-container > h1 {
-  font-weight: 400;
-  font-size: 30px;
+.program-page-container > h2 {
   letter-spacing: 1.5%;
   height: 60px;
   margin-bottom: 0;
 }
 
+.prog-title > h3 {
+  font-size: 0.9rem;
+}
+
 .mini-border {
   border-bottom: 3px solid tomato;
   width: 20%;
+  margin-bottom: 25px;
 }
 
 .programs-container {
@@ -29,7 +33,7 @@
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 
 .programs {
@@ -37,7 +41,7 @@
   grid-template-columns: repeat(2, 1fr) 3fr;
   grid-template-rows: 1fr;
   grid-column-gap: 10px;
-  margin: 2rem 4%;
+  margin: 0.3rem 4%;
   background-color: rgba(255, 255, 255, 0.1);
   height: 120px;
   width: 85%;
@@ -63,7 +67,7 @@
   grid-area: 1 / 2 / 2 / 3;
   font-family: 'lato', sans-serif;
   font-weight: lighter;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .prog-description {
@@ -86,9 +90,10 @@
     grid-row-gap: 10px;
     height: 210px;
     width: 200px;
-    margin: 1rem 1%;
+    margin: 0.5rem 0.2%;
     justify-content: center;
     text-align: center;
+    padding: 1%;
   }
 
   .programs > div {

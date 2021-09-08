@@ -14,13 +14,21 @@ body {
 #home-page {
   display: flex;
   flex-flow: column;
-  margin: 7% 7% 0 7%;
+  margin: 10% 7% 0 11%;
   font-family: 'Lato', sans-serif;
 }
 
+.greetings {
+  margin: 30px 0 0 0;
+  color: #ec5242;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
 .main-titling {
-  margin: 50px 0 15px 0;
-  font-size: 35px;
+  font-family: 'cocogoose', sans-serif;
+  margin: 0 0 15px 0;
+  font-size: 25px;
   font-weight: bolder;
   color: transparent;
   -webkit-background-clip: text;
@@ -33,22 +41,22 @@ body {
 
 .main-description > p {
   margin: 0 0 0 5%;
-  font-size: 17px;
+  font-size: 12px;
   letter-spacing: 1px;
-  line-height: 20px;
-  font-weight: 400;
+  line-height: 18px;
+  font-weight: bold;
   color: #272a31;
 }
 
-.due-date > h1 {
-  font-size: 20px;
-  font-weight: bolder;
+.due-date > h3 {
+  font-size: 25px;
+  font-weight: 700;
 }
 
-.due-date > h2 {
+.due-date > h4 {
   font-size: 22px;
   font-weight: 400;
-  margin: 0 0 50px 4%;
+  margin: 0 0 50px 0;
 }
 
 @media (min-width: 768px) {
@@ -60,22 +68,29 @@ body {
     margin-bottom: 100px;
   }
 
+  .greetings {
+    font-size: 50px;
+  }
+
   .main-titling {
-    margin: 50px 40% 15px 0;
-    font-size: 60px;
+    margin: 0 40% 15px 0;
+    font-size: 40px;
     background-image: url(../src/logo/clipart1.png);
   }
 
   .main-description > p {
-    margin: 0 45% 0 5%;
-    font-size: 20px;
-    letter-spacing: 2px;
+    margin: 0 55% 0 5%;
+    font-size: 15px;
     line-height: 22px;
     background-color: white;
   }
 
   .due-date {
     margin-bottom: 5%;
+  }
+
+  .due-date > h3 {
+    font-size: 50px;
   }
 
   body {

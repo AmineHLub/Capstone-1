@@ -2,64 +2,52 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> WEBuild.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This Website is built for Microverse as a capstone (final project) for the first module. The project is a website for a bootcamp that would teach its students web devolopment. Most of the rights in this project are reserved. However, Everything used in the project either names, purposes.. are fictional and any resemblance to actual events or locales or persons or commercial projects is entirely coincidental.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript
+- VS Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://aminehlub.github.io/Capstone-1/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- VSCODE / Live HTTP Server
+
+- OS with Git installed on it
+
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+**Run** git clone https://github.com/AmineHLub/Capstone-1.git
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AmineHLub](https://github.com/AmineHLub)
+- Twitter: [@Amino47612441](https://twitter.com/Amino47612441)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hajltaief-b18863163/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Any contributing is welcome
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AmineHLub/Capstone-1/issues).
 
 ## Show your support
 
@@ -67,10 +55,18 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project is for microverse but the original design belongs to [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+- [The original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+- The logo is made using [Adobe sparks logo creator online](https://www.adobe.com/express/create/logo).
+
+- Images of speakers are licensed under [freepic](https://www.freepik.com/vectors/people)'s standard license.
+
+- This project belongs to [Microverse](https://microverse.org/).
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](./Licenses//MIT.md) licensed.
+- [Freepik](./Licenses//FREEPIK.md) License 
+- [Adobe](./Licenses/ADOBE.md) License

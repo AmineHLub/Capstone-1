@@ -45,8 +45,8 @@ for (let i = 0; i < arrOfSpeakers.length; i += 1) {
   const gridFlexContainer3 = document.createElement('div');
   const gridFlexContainer4 = document.createElement('div');
   const speakerImg = document.createElement('img');
-  const speakerName = document.createElement('h1');
-  const speakerPosition = document.createElement('h2');
+  const speakerName = document.createElement('h2');
+  const speakerPosition = document.createElement('h3');
   const speakerDescription = document.createElement('p');
   flexMainContainer.classList.add('featured-speakers-container');
   gridMainContainer.classList.add('featured-speakers-grid-container');

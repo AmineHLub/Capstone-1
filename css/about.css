@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background-image: url(../src/logo/mobile_bg.png);
+  background-repeat: no-repeat;
+  background-position: 0% 4rem;
+  background-size: 100%;
+  font-family: 'lato', sans-serif;
+}
+
+#logo,
+#about {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5rem 10%;
+  text-align: center;
+}
+
+.greetings {
+  color: #ec5242;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#about > h1 {
+  margin: 10px 0 0 0;
+  font-family: 'cocogoose', sans-serif;
+  font-size: 30px;
+  color: #ec5242;
+}
+
+.footer-section,
+.website-main-descrption,
+.mail > a,
+.contact-info,
+.logo-description {
+  font-size: 14px;
+  color: #272a31;
+}
+
+.website-main-descrption {
+  color: #272a31;
+  background-color: white;
+  border: 1px solid #d3d3d36c;
+  padding: 2% 5%;
+}
+
+.mail > span,
+.additional-for-desktop-only {
+  display: none;
+}
+
+.mail > a {
+  font-weight: bold;
+}
+
+.logo-info {
+  margin: 2.5rem 0 0 0;
+  font-weight: 500;
+  color: #272a31;
+}
+
+.logo1 {
+  width: 60%;
+  margin: 4rem 0 0 0;
+  border: 0.5px solid #d3d3d36c;
+  padding: 0.5% 7%;
+}
+
+#rights > .footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-section > a > img {
+  width: 170px;
+  height: 70px;
+}
+
+.seperator1,
+.seperator2 {
+  margin-top: 10px;
+  height: 2px;
+  width: 25px;
+  background-color: #ec5242;
+  align-self: center;
+}
+
+.seperator1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../src/logo/pc_bg.png);
+  }
+
+  .greetings,
+  footer > #partners {
+    display: none;
+  }
+
+  #about > h1 {
+    font-size: 45px;
+  }
+
+  .seperator1,
+  .mail > span,
+  .additional-for-desktop-only {
+    display: block;
+  }
+
+  .mail {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mail > span {
+    margin-left: 1%;
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: rgb(87, 87, 87);
+  }
+
+  .first-container,
+  .second-container {
+    border: 0.2px solid #d3d3d36c;
+  }
+
+  .logo1 {
+    width: auto;
+  }
+
+  footer > #rights {
+    height: 120px;
+    background-color: #272a31;
+  }
+
+  .footer-section {
+    color: #d3d3d3;
+  }
+
+  .footer-section > a > img {
+    filter: invert(1);
+  }
+
+  #logo,
+  #about {
+    margin: 5rem 25%;
+  }
+}
