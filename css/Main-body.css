@@ -88,6 +88,10 @@ body {
     margin-bottom: 5%;
   }
 
+  .due-date > h3 {
+    font-size: 50px;
+  }
+
   body {
     background-image: url(../src/logo/pc_bg.png), url(../src/logo/bg-gif.gif);
     background-position: 0% 4rem, 100% 8rem;
