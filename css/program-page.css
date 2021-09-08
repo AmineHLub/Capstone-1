@@ -25,6 +25,7 @@
 .mini-border {
   border-bottom: 3px solid tomato;
   width: 20%;
+  margin-bottom: 25px;
 }
 
 .programs-container {
