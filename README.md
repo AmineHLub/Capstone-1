@@ -15,7 +15,7 @@ This Website is built for Microverse as a capstone (final project) for the first
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://aminehlub.github.io/Capstone-1/)
 
 
 ## Getting Started
@@ -67,6 +67,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-- This project is [MIT](./licenses/MIT.md) licensed.
-- [Freepik]((./licenses/FREEPIK.md)) License 
-- [Adobe]((./licenses/ADOBE.md)) License
+- This project is [MIT](./Licenses//MIT.md) licensed.
+- [Freepik](./Licenses//FREEPIK.md) License 
+- [Adobe](./Licenses/ADOBE.md) License
